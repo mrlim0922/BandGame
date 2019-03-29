@@ -1,0 +1,51 @@
+﻿  stdafx.cpp
+  Background.cpp
+  BaseWindow.cpp
+  FrameSkip.cpp
+  InputManager.cpp
+  SDL_Button.cpp
+  SDL_Proj.cpp
+  Animation.cpp
+  Song.cpp
+  System.cpp
+  TimeManager.cpp
+  코드를 생성하고 있습니다...
+Background.obj : error LNK2019: SDL_RWFromFile 외부 기호(참조 위치: "struct tagBackground * __cdecl InitBackGround(struct SDL_Renderer *)" (?InitBackGround@@YAPEAUtagBackground@@PEAUSDL_Renderer@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_RWFromFile 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_RWFromFile 외부 기호를 확인할 수 없습니다.
+Background.obj : error LNK2019: SDL_FreeSurface 외부 기호(참조 위치: "struct tagBackground * __cdecl InitBackGround(struct SDL_Renderer *)" (?InitBackGround@@YAPEAUtagBackground@@PEAUSDL_Renderer@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_FreeSurface 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_FreeSurface 외부 기호를 확인할 수 없습니다.
+Background.obj : error LNK2019: SDL_LoadBMP_RW 외부 기호(참조 위치: "struct tagBackground * __cdecl InitBackGround(struct SDL_Renderer *)" (?InitBackGround@@YAPEAUtagBackground@@PEAUSDL_Renderer@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_LoadBMP_RW 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_LoadBMP_RW 외부 기호를 확인할 수 없습니다.
+Background.obj : error LNK2019: SDL_CreateTextureFromSurface 외부 기호(참조 위치: "struct tagBackground * __cdecl InitBackGround(struct SDL_Renderer *)" (?InitBackGround@@YAPEAUtagBackground@@PEAUSDL_Renderer@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_CreateTextureFromSurface 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_CreateTextureFromSurface 외부 기호를 확인할 수 없습니다.
+Background.obj : error LNK2019: SDL_RenderCopy 외부 기호(참조 위치: "void __cdecl Draw(struct tagBackground *)" (?Draw@@YAXPEAUtagBackground@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_RenderCopy 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_RenderCopy 외부 기호를 확인할 수 없습니다.
+Background.obj : error LNK2019: SDL_DestroyTexture 외부 기호(참조 위치: "void __cdecl Release(struct tagBackground *)" (?Release@@YAXPEAUtagBackground@@@Z) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2001: SDL_DestroyTexture 외부 기호를 확인할 수 없습니다.
+Animation.obj : error LNK2001: SDL_DestroyTexture 외부 기호를 확인할 수 없습니다.
+BaseWindow.obj : error LNK2019: SDL_CreateWindow 외부 기호(참조 위치: "public: bool __cdecl CBaseWindow::Initialize(void)" (?Initialize@CBaseWindow@@QEAA_NXZ) 함수)에서 확인하지 못했습니다.
+BaseWindow.obj : error LNK2019: SDL_DestroyWindow 외부 기호(참조 위치: "public: void __cdecl CBaseWindow::Terminate(void)" (?Terminate@CBaseWindow@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+BaseWindow.obj : error LNK2019: SDL_CreateRenderer 외부 기호(참조 위치: "public: bool __cdecl CBaseWindow::Initialize(void)" (?Initialize@CBaseWindow@@QEAA_NXZ) 함수)에서 확인하지 못했습니다.
+BaseWindow.obj : error LNK2019: SDL_DestroyRenderer 외부 기호(참조 위치: "public: void __cdecl CBaseWindow::Terminate(void)" (?Terminate@CBaseWindow@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+BaseWindow.obj : error LNK2019: SDL_Init 외부 기호(참조 위치: "public: __cdecl CBaseWindow::CBaseWindow(void)" (??0CBaseWindow@@QEAA@XZ) 함수)에서 확인하지 못했습니다.
+BaseWindow.obj : error LNK2019: SDL_Quit 외부 기호(참조 위치: "public: __cdecl CBaseWindow::~CBaseWindow(void)" (??1CBaseWindow@@QEAA@XZ) 함수)에서 확인하지 못했습니다.
+System.obj : error LNK2001: SDL_Quit 외부 기호를 확인할 수 없습니다.
+InputManager.obj : error LNK2019: SDL_GetKeyboardState 외부 기호(참조 위치: "private: void __cdecl CInputManager::Keyboard(void)" (?Keyboard@CInputManager@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+InputManager.obj : error LNK2019: SDL_GetMouseState 외부 기호(참조 위치: "private: void __cdecl CInputManager::Mouse(void)" (?Mouse@CInputManager@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+InputManager.obj : error LNK2019: SDL_PollEvent 외부 기호(참조 위치: "private: void __cdecl CInputManager::Mouse(void)" (?Mouse@CInputManager@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+SDL_Button.obj : error LNK2019: SDL_MapRGB 외부 기호(참조 위치: "struct S_BUTTON * __cdecl InitButton(struct SDL_Renderer *,char const *,char const *,char const *,int,int,void (__cdecl*)(void))" (?InitButton@@YAPEAUS_BUTTON@@PEAUSDL_Renderer@@PEBD11HHP6AXXZ@Z) 함수)에서 확인하지 못했습니다.
+Animation.obj : error LNK2001: SDL_MapRGB 외부 기호를 확인할 수 없습니다.
+SDL_Button.obj : error LNK2019: SDL_SetColorKey 외부 기호(참조 위치: "struct S_BUTTON * __cdecl InitButton(struct SDL_Renderer *,char const *,char const *,char const *,int,int,void (__cdecl*)(void))" (?InitButton@@YAPEAUS_BUTTON@@PEAUSDL_Renderer@@PEBD11HHP6AXXZ@Z) 함수)에서 확인하지 못했습니다.
+Animation.obj : error LNK2001: SDL_SetColorKey 외부 기호를 확인할 수 없습니다.
+System.obj : error LNK2019: SDL_SetRenderDrawColor 외부 기호(참조 위치: "private: void __cdecl CSystem::Pulse(void)" (?Pulse@CSystem@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+System.obj : error LNK2019: SDL_RenderClear 외부 기호(참조 위치: "private: void __cdecl CSystem::Pulse(void)" (?Pulse@CSystem@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+System.obj : error LNK2019: SDL_RenderPresent 외부 기호(참조 위치: "private: void __cdecl CSystem::Pulse(void)" (?Pulse@CSystem@@AEAAXXZ) 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\user\Desktop\SDL_Proj\x64\Debug\SDL_Proj.exe : fatal error LNK1120: 21개의 확인할 수 없는 외부 참조입니다.
