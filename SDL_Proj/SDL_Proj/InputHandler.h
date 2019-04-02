@@ -1,6 +1,7 @@
 #pragma once
 
 enum MouseButton { LEFT, RIGHT, MIDDLE };
+
 typedef struct _MOUSESTATE
 {
 	int x;
